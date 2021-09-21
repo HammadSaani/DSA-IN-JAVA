@@ -1,6 +1,8 @@
+package Functions;
+
 import java.util.Scanner;
 
-public class IITwo {
+public class OddEvenFunc {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Number :");

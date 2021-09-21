@@ -2,7 +2,7 @@ package basicJava;
 
 import java.util.Scanner;
 
-public class Six {
+public class GreaterNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter First Number :");

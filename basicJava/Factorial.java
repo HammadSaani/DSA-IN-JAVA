@@ -3,7 +3,7 @@ package basicJava;
 
 import java.util.Scanner;
 
-public class One {
+public class Factorial {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number :");

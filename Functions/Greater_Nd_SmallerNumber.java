@@ -1,8 +1,10 @@
+package Functions;
+
 import java.util.Scanner;
 // This program will take two integers as input
 // It will return max and min of given input
 
-public class IOne {
+public class Greater_Nd_SmallerNumber {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Number One :");

@@ -2,7 +2,7 @@ package Functions;
 
 import java.util.Scanner;
 
-public class IIIThree {
+public class Eligible_Not_Eligible {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter Age :");
