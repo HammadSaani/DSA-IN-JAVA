@@ -1,5 +1,5 @@
 # JAVA BOOTCAMP
-# Day 0
+### Day 0
  * Learnt About Git and GitHub
 ## Day 1
  * Introduction To Programming Languages
@@ -14,10 +14,11 @@
      * Flowcharts 
      * Pseudo Code
  * Intro To Java
-        * Architecture
-        * Installation
+    * Architecture
+    * Installation
 ## Day 3
  * Input/ Output in Java
  * Data Types
  * Type Conversion and Casting
 ## Day 4
+
