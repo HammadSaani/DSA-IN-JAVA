@@ -1,13 +1,23 @@
 # JAVA BOOTCAMP
 # Day 0
  * Learnt About Git and GitHub
-# Day 1
+## Day 1
  * Introduction To Programming Languages
  * Types of Programming Languages
-     * (Proceedural Vs Functional Vs Objected Oriented )
- * Memory Management (Stack and Heap Memory)
-# Day 2
- * Flow of Programs (Flowcharts and Pseudo Code)
- * Intro To Java (Architecture and Installation)
-# Day 3
- * 
+     * Proceedural Language
+     * Functional  Language
+     * Objected Oriented Language
+ * Memory Management 
+     * Stack and Heap Memory
+## Day 2
+ * Flow of Programs 
+     * Flowcharts 
+     * Pseudo Code
+ * Intro To Java
+        * Architecture
+        * Installation
+## Day 3
+ * Input/ Output in Java
+ * Data Types
+ * Type Conversion and Casting
+## Day 4
