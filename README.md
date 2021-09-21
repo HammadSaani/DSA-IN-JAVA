@@ -1,4 +1,4 @@
-# :-: JAVA BOOTCAMP
+# : JAVA BOOTCAMP :
 ### Day 0
  * Learnt About Git and GitHub
 ## Day 1
