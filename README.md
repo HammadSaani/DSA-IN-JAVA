@@ -87,4 +87,4 @@
 
 #### Problems Solved
 
-- [x] [Count Items Matching a Rule] (https://leetcode.com/problems/count-items-matching-a-rule/submissions/)
+- [x] [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
