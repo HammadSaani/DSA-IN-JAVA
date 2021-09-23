@@ -92,3 +92,13 @@
 - [x] [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 - [x] [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)
 - [x] [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
+
+### Day 11
+
+###### Learnt About Binary Search
+
+#### Problems Solved
+
+- [x] [Binary Search](#)
+  - Agnostic Binary Search plus Optimization
+- [x] [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
