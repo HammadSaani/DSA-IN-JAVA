@@ -102,3 +102,38 @@
 - [x] [Binary Search](#)
   - Agnostic Binary Search plus Optimization
 - [x] [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
+
+### Day 12
+
+###### Learnt About Sorting
+
+Code the following Sorting Algo's
+
+- Bubble Sort
+- Selection Sort
+
+### Day 13
+
+###### Learnt more Sorting Algo's
+
+Code the following Sorting Algo's
+
+- Insertion Sort
+- Cyclic Sort
+
+### Day 14
+
+###### Learnt more about Strings and String Builer
+
+#### Problems Solved
+
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+- [x] [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)
+
+### Day 15
+
+#### Solved Some Problems on Leetcode
+
+- [x] [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
+- [x] [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
