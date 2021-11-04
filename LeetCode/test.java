@@ -1,4 +1,4 @@
-//package LeetCode;
+package LeetCode;//package LeetCode;
 //
 //import java.lang.reflect.Array;
 //import java.util.Arrays;
@@ -41,8 +41,18 @@
 //    }
 //}
 
-public class test{
+public class test {
     public static void main(String[] args) {
-        System.out.println("Hi");
+        int[][] matrix = {{1, 2,5},
+                {4, 5, 6,},
+                {7, 8, 9}};
+        System.out.println(matrix.length);
+//        int[][] result = new int[matrix.length][matrix.length];
+//        for(int row = 0; row < matrix.length; row++){
+//            for (int col = 0; col < matrix.length; col++){
+//                result[row][col] = matrix[col][row];
+//            }
+//
+
     }
 }
