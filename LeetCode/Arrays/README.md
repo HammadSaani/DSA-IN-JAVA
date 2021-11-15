@@ -32,9 +32,9 @@
 
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [ ] [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+- [x] [Jump Game](https://leetcode.com/problems/jump-game/)
 - [ ] [Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 ### Hard

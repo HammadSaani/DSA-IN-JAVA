@@ -137,3 +137,12 @@ Code the following Sorting Algo's
 
 - [x] [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
 - [x] [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
+
+### Day 16
+
+###### Learnt about Recursions and Solved some problems using recursions
+
+#### Solved Some Problems on Leetcode
+
+- [x] [Jump Game](https://leetcode.com/problems/jump-game/)
+- [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
