@@ -57,21 +57,80 @@ package LeetCode;//package LeetCode;//package LeetCode;
 //    }
 //}
 
+//public class test {
+//    public static void main(String[] args) {
+//        pattern(5);
+//    }
+//
+//    static void pattern(int a){
+//        int i = a;
+//        while(i >= 0){
+//            int j = 0;
+//            while ( j < i){
+//                System.out.print("*");
+//                j++;
+//            }
+//            System.out.println();
+//            i--;
+//        }
+//    }
+//}
+
+
+class Solution {
+    public int searchInsert(int[] nums, int target) {
+        int s = 0;
+        int l = nums.length - 1;
+        int mid = (s + l) / 2;
+
+        while (s < l){
+            if (target == nums[mid]){
+                return mid;
+            }else if(target > nums[mid]){
+                s = mid + 1;
+            }else{
+                l = mid - 1;
+            }
+        }
+        return mid;
+    }
+}
+
 public class test {
-    public static void main(String[] args) {
-        pattern(5);
+    public static int searchInsert(int[] nums, int target) {
+        int s = 0;
+        int l = nums.length - 1;
+        int ans = 0;
+        while (s <= l){
+            int mid = (s + l) / 2;
+            if (target == nums[mid]){
+                return mid;
+            }else if(target > nums[mid]){
+                s = mid + 1;
+                ans = s;
+            }else{
+                l = mid - 1;
+                ans = l + 1;
+            }
+        }
+        return ans;
     }
 
-    static void pattern(int a){
-        int i = a;
-        while(i >= 0){
-            int j = 0;
-            while ( j < i){
-                System.out.print("*");
-                j++;
+    public static void main(String args[]){
+//        int nums[] = {1, 2, 3, 5};
+//        System.out.println(searchInsert(nums, 4));
+        System.out.println(finalValueAfterOperations(new String[]{"--X", "++X", "X++"}));
+    }
+
+    public static int finalValueAfterOperations(String[] operations) {
+        int ans = 0;
+        for (String operation : operations) {
+            if (operation.equals("--X") || operation.equals("X--")) {
+                ans--;
+            } else {
+                ans++;
             }
-            System.out.println();
-            i--;
         }
+        return ans;
     }
 }

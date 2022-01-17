@@ -6,12 +6,9 @@ import java.util.Scanner;
 public class Recursion3 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 7, 9};
-//        System.out.println(sortOrNot(arr, 0));
-        System.out.println(linearSearch(arr, 9));
-        System.out.println(linearSearchWithRecursion(arr, -1, 0));
-        System.out.println(test(29));
-
+        System.out.println(sortOrNot(arr));
     }
+
 
     static boolean sortOrNot(int[] arr){
         int i = 0;
@@ -30,7 +27,7 @@ public class Recursion3 {
     }
 
     static boolean sortOrNot(int[] arr, int i){
-        if (arr.length - 1 == i) {
+        if (i < arr.length) {
             return true;
         }
         return arr[i] < arr[i+1] && sortOrNot(arr, i+1);
