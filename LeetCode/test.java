@@ -77,6 +77,8 @@ package LeetCode;//package LeetCode;//package LeetCode;
 //}
 
 
+import java.util.ArrayList;
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int s = 0;
@@ -117,9 +119,11 @@ public class test {
     }
 
     public static void main(String args[]){
-//        int nums[] = {1, 2, 3, 5};
-//        System.out.println(searchInsert(nums, 4));
-        System.out.println(finalValueAfterOperations(new String[]{"--X", "++X", "X++"}));
+//        System.out.println(checkArray(new int[]{2, 3, 5, 3}, 0));
+//        int[] arr = {1, 2, 3, 4, 5};
+//        int target = 9;
+//        System.out.println(linearSearchUsingRecursion(arr,  0, arr.length - 1, target));
+        System.out.println(testArrayList(0, new ArrayList<Integer>()));
     }
 
     public static int finalValueAfterOperations(String[] operations) {
@@ -133,4 +137,40 @@ public class test {
         }
         return ans;
     }
+
+
+    public static boolean checkArray(int[] arr, int index){
+        if (index == arr.length - 1){
+            return true;
+        }
+        boolean check = arr[index] < arr[index + 1];
+        if (check) {
+            return checkArray(arr, index + 1);
+        }
+        return false;
+    }
+
+
+    public static boolean linearSearchUsingRecursion(int[] arr, int s, int e, int target){
+        if (s > e){
+            return false;
+        }
+        int mid = (s + e) / 2;
+        if (arr[mid] == target){
+            return true;
+        }else if(arr[mid] > target){
+            return linearSearchUsingRecursion(arr, s, mid - 1, target);
+        }
+        return linearSearchUsingRecursion(arr, mid + 1, e, target);
+    }
+
+
+    public static ArrayList<Integer> testArrayList(int i, ArrayList<Integer> list){
+        if (i == 10){
+            return list;
+        }
+        list.add(i);
+        return testArrayList(i+1, list);
+    }
 }
+
